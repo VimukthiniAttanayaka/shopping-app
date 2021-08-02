@@ -1,0 +1,64 @@
+.blue-part{
+    background-color: rgb(5, 5, 161);
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    @media (min-width: 767px) {
+        h1{
+            font-size: 450%;
+        }
+    }
+
+}
+.black-part{
+    background-color: black;
+    color: white;
+    padding: 80px 45px 45px 45px;
+    width: 100%;
+    height: auto;
+    #black-part-p1{
+        font-size: 130%;
+        opacity: 0.6;
+    }
+    #black-part-p2{
+        color: blue;
+        font-size: 130%;
+    }
+    #muroexe{
+        padding-top: 10%;
+        font-size: 130%;
+    }
+    #instashop{
+        padding-top: 10%;
+        font-size: 130%;
+        text-align: right;
+        color: white;
+    }
+}
+.gray-part{
+    text-align: center;
+    font-size: 130%;
+    p{
+        margin: 0.5%;
+    }
+    h6{
+        opacity: 0.8;
+    }
+    #gray-col1{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: rgb(235, 235, 235);
+    }
+    #gray-col2{
+        background-color: rgb(235, 235, 235);
+        .d-block{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.befo-footer{
+    padding: 0px !important;
+}

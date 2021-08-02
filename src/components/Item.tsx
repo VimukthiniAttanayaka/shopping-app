@@ -1,11 +1,11 @@
 import React from "react";
 import {Col, Row, Image} from "react-bootstrap";
-import shoes_1_1 from "../styles/shoe_1_1.webp"
-import shoes_2_1 from "../styles/shoe_2_1.webp"
-import shoes_3_1 from "../styles/shoe_3_1.webp"
-import shoes_4_1 from "../styles/shoe_4_1.webp"
-import shoes_5_1 from "../styles/shoe_5_1.webp"
-import shoes_6_1 from "../styles/shoe_6_1.webp"
+import shoes_1_1 from "./items/shoes/shoe_1/shoes_images/shoe_1_1.webp"
+import shoes_2_1 from "./items/shoes/shoe_2/shoes_images/shoe_2_1.webp"
+import shoes_3_1 from "./items/shoes/shoe_3/shoes_images/shoe_3_1.webp"
+import shoes_4_1 from "./items/shoes/shoe_4/shoes_images/shoe_4_1.webp"
+import shoes_5_1 from "./items/shoes/shoe_5/shoes_images/shoe_5_1.webp"
+import shoes_6_1 from "./items/shoes/shoe_6/shoes_images/shoe_6_1.webp"
 import {Link} from "react-router-dom";
 
 const Item: React.FC = () => {
