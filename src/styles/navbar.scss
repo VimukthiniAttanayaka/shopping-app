@@ -3,25 +3,22 @@
     border-bottom: 1px solid rgb(207, 207, 207);
     padding-top: auto;
     padding-left: 5%;
-    padding-right: 10%;
+    //padding-right: 10%;
     margin: 0px !important;
 }
 .navlink1{
-    color: black;
-    text-decoration: underline white;
     :hover{
         text-decoration: underline black;
     }
-
-}
-.navlink{
-    color: black;
 }
 .navlink-{
     color: black;
     text-decoration: underline white;
     text-align: center;
 }
+.navlink{
+    color: black;
+}    
 .home{
     padding: 0px !important;
 }
@@ -35,4 +32,12 @@
     :hover{
         text-decoration: underline black;
     }
+}
+@media (min-width: 767px) {
+    .searchbar{
+        size:50%
+    }
+}
+.searchbar{
+    padding-right: 5px;
 }
