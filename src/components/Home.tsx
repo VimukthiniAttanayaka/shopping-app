@@ -1,9 +1,10 @@
+import Item from "./Item";
 
 
 function Home() {
   return (
     <div className="App">
-      <h1>home</h1>
+      <Item/>
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.summer-sale{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-top: 40px;
+}
+#p3s{
+    color:red;
+    font-size: 150%;
+}
+.name{
+    color: rgb(99, 98, 98);
+    background-color: white;
+    text-align: center;
+    margin-bottom:1px;
+    text-decoration: underline white;
+}
+#price{
+    color:gray;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 1px;
+    text-decoration: underline white;
+}
+#old-price{
+    text-decoration: line-through;
+
+}
+.items{
+    :hover{
+        .name{
+            border-bottom: 1px solid black;
+        }
+    }
+}
