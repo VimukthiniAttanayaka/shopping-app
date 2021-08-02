@@ -1,12 +1,10 @@
 import {Link} from "react-router-dom";
 import {Button, Nav, Navbar, Row, Col, Form, FormControl} from "react-bootstrap";
-import {ArrowRight, Search} from "react-feather";
 
 const NavBar = () =>{
   return (
-    <div className='navbar1'>
+    <Row className='navbar1'>
       <Navbar expand="md">
-      <Col xs={{span: 2,order: 3}} md={{span:4, order: 1}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -18,19 +16,17 @@ const NavBar = () =>{
             <Nav.Link href="/contact"><p className='navlink'>Contact</p></Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        </Col>
-  <Col xs={{order: 1}} md={{order: 2}} className="navlink1">
+        <Col md={4} xs={3} className='navlink1'>
           <Link to={"/contact"}><h3 className='navlink-'><b>MURO</b>EXE</h3></Link>
         </Col>
-  <Col xs={{ order: 2}} md={{order: 3}} className="searchbar">
-
+        <Col md={4} xs={3}>
           <Form className="d-flex">
             <FormControl type="search" placeholder="Search" className="mr-2" aria-label="Search"/>
-            <Button variant="outline-success"><Search/></Button>
+            <Button variant="outline-success">Buscar..</Button>
           </Form>
         </Col>
       </Navbar>
-    </div>
+    </Row>
     );
   }
   export default NavBar;
