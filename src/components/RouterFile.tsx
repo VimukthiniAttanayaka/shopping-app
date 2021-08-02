@@ -20,14 +20,19 @@ import Legal from "./Footer-files/Legal";
 import Official_stores from "./Footer-files/Official_stores";
 import Shopments from "./Footer-files/Shopments";
 import Size_chart from "./Footer-files/Size_chart";
-
+import Special_Line from "./Special_Line";
+import Allitem from "./Allitem";
   const RouterFile = () =>{
     return (
       <Container fluid={true}>
         <Router>
           <Row>
+            <Special_Line/>
             <Navbar/>
-          <Switch>           
+          <Switch> 
+            <Route path="/specialline">
+              <Allitem/>
+            </Route>           
             <Route path="/designprocess">
               <Design_process/>
             </Route>

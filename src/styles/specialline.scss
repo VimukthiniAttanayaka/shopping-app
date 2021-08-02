@@ -1,0 +1,21 @@
+#special{
+    width: 100%;
+    color: white;
+    background-color: rgb(175, 0, 0);
+    text-align: center;
+    padding: 1%;
+    text-decoration: underline rgb(175, 0, 0);
+}
+.redline{
+    padding-left: 0px;
+    padding-right: 0px !important;
+    :hover{
+        #special{
+            background-color: rgb(230, 2, 2);
+            text-decoration: underline rgb(230, 2, 2);
+        }
+    }
+}
+.line{
+    padding: 0px !important;
+}
