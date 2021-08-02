@@ -1,0 +1,38 @@
+.navbar1{
+    background-color: white;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-top: auto;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin: 0px !important;
+}
+.navlink1{
+    color: black;
+    text-decoration: underline white;
+    :hover{
+        text-decoration: underline black;
+    }
+
+}
+.navlink{
+    color: black;
+}
+.navlink-{
+    color: black;
+    text-decoration: underline white;
+    text-align: center;
+}
+.home{
+    padding: 0px !important;
+}
+#basic-navbar-nav{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.mr-auto{
+    padding: 0px !important;
+    margin: 0px !important;
+    :hover{
+        text-decoration: underline black;
+    }
+}
